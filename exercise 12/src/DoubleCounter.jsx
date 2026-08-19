@@ -4,7 +4,6 @@ const initialState = {
   counterA: 0,
   counterB: 0,
 };
-
 const Reducer = (state, action) => {
   switch (action.type) {
     case "increment_A":
@@ -58,8 +57,8 @@ const DoubleCounter = () => {
         <button onClick={() => disptch({ type: "increment_B" })}>+B</button>
       </div>
       <div>
-        <button onClick={() => disptch({ type: "RESET_ALL" })}>
-          Reset Both
+        <button onClick={()=> disptch({ type: "RESET_ALL" })}>
+          Reset oth
         </button>
       </div>
     </div>
