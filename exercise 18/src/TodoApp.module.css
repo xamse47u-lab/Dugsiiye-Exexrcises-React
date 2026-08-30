@@ -1,0 +1,18 @@
+.container {
+  width: 500px;
+  margin: 50px auto;
+  padding: 25px;
+
+  background-color: #14171a;
+  border: 1px solid #2b3439;
+  border-radius: 12px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #f2f2f0;
+}
