@@ -6,6 +6,7 @@ const App = () => {
       <h1>My App</h1>
       <ToggleButton />
     </div>
+    
   );
 };
 
